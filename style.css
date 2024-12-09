@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 20px 20px -20px 30px;
+}
+ul{
+    padding: 20px;
+    text-align: left;
+    margin:0 7em;
+}
+ul li a{
+    display: block;
+    color: black;
+    border: 2px rgb(2, 42, 75) solid;
+    margin: 10px;
+    padding:20px;
+    margin-bottom: 30px;
+}
+ul li a:hover{
+    background-color: rgb(2, 42, 75);
+    color: antiquewhite;
+    border-radius: 1000px;
+    transform: scale(1.2);
+}
